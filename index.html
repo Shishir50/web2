@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" media="screen and (max-width: 840px)" href="phone.css">
+    <title>gym website</title>
+</head>
+
+<body>
+
+        <ul id="slidenav">
+            <div id="close" onclick="closebar()">&#9747</div>
+            <li class="slideli"><a href="">PARTNER</a></li>
+            <li class="slideli"><a href="">PRIVACY</a></li>
+            <li class="slideli"><a href="">LOGIN</a></li>
+            <li class="slideli"><a href="">LISENCE</a></li>
+            <hr>
+            <li class="slideli"><a href="">PARTNER</a></li>
+            <li class="slideli"><a href="">PRIVACY</a></li>
+            <li class="slideli"><a href="">LOGIN</a></li>
+            <li class="slideli"><a href="">LISENCE</a></li>
+        </ul>
+    <div id="body" >
+   
+        <div class="navbar">
+            <nav class="nav1">
+                <div id="open" onclick="slidebar()">&#9776</div>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">REGISTER</a></li>
+            </ul>
+            <button id="btn1">EXPLORE &rarr;</button>
+        </nav>
+    </div>
+    
+    <!-- ABOUT US -->
+    <div id="home">
+        <div>
+            
+            <h1 class="primary">
+                BRIEF ABOUT OUR GYM
+            </h1>
+            <p class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptas amet quia architecto 
+            </p>
+            
+        </div>
+        <div>
+            <img src="gym.jpg" alt="">
+        </div>
+
+    </div>
+    
+    <!-- SERVICES -->
+    <div class="services">
+        <div class="intro">
+            
+            <h1 class="primary">OUR SERVICES</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur praesentium,
+                aliquidfacilis </p>
+                <!-- <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nobis?</p> -->
+        </div>
+        
+        <div class="items">
+            <div class="items1">
+                <h2 class="primary1">Personal Trainer</h2>
+                <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla vitae assumenda
+                    soluta porro voluptatum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, animi. 
+                    <a href="">More +</a></p>
+                    <hr>
+                </div>
+                <div class="items1">
+                    <h2 class="primary1">Suppliments</h2>
+                    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla vitae assumenda
+                        soluta porro voluptatum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, amet? <a href="">More +</a></p>
+                        <hr>
+                    </div>
+                    <div class="items1">
+                        <h2 class="primary1">Keto Dietician</h2>
+                        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla vitae assumenda
+                            soluta porro voluptatum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, alias.
+                            <a href="">More +</a>
+                        </p>
+                        <hr>
+                    </div>
+            <div class="items1">
+                <h2 class="primary1">Calesthenics</h2>
+                <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla vitae assumenda
+                    soluta porro voluptatum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, modi!
+                    <a href="">More +</a>
+                </p>
+                <hr>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="register">
+        <h1 class="primary">REGISTER NOW</h1>
+        <form action="" class="form1">
+            <input type=" text" placeholder="Name">
+            <input type=" number" placeholder="Contact">
+            <input type=" email" placeholder="E-mail">
+            <div>
+                
+                <label for="service">Choose Service:-</label>
+                <select name="Choose Service" id="choose">
+                    <option value="Personal Trainer">Personal Trainer</option>
+                    <option value="Suppliments">Suppliments</option>
+                    <option value="Keto Dietician">Keto Dietician</option>
+                    <option value="Calesthenics">Calesthenics</option>
+                </select>
+            </div>
+            <div>
+                
+                <button class="btn2">SUBMIT</button>
+            </div>
+            
+        </form>
+    </div>
+    
+    <footer class="foot">
+        <p>&copy; 2020 COPYRIGHT FITNEES HUB</p>
+        <div class="social">
+            <img src="insta logo.png" alt="logo">
+            <img src="youtube logo.png" alt="logo">
+            <img src="watsapp logo.png" alt="logo">
+            <img src="twitter logo.png" alt="logo">
+        </div>
+    </footer>
+</div>
+    
+</body>
+<script src="index.js"></script>
+</html>
